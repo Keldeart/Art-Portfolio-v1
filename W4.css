@@ -1,0 +1,133 @@
+body {
+    background-image: url("https://i.ibb.co/xzvXydM/bgnoir2.png");
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 0%;
+    border-color: #cfbfa6;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    color: #4d4942;
+    font-weight: 100;
+    font-size: 47px;
+    margin-top: 0%;
+}
+
+.a1 {
+    text-decoration: none;
+    color: #cfbfa6;
+    font-family: "Righteous", sans-serif;
+    font-size: 40px;
+    position: relative;
+
+
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 100px;
+    border-width: 7px;
+    border-color: #cfbfa6;
+    border-style: dashed;
+}
+
+.a1:hover {
+  border-color: #ce5a16;
+  color: #ce5a16;
+  cursor: pointer;
+}
+
+img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "Righteous", sans-serif;
+    color: #e8dac4;
+    font-size: 150px;
+    margin-bottom: 0%;
+  }
+
+footer {
+  background-color: #cfbfa6;
+  position: absolute; bottom: 0;
+  height: 160px;
+  width: 100%;
+
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  text-align: center;
+}
+
+footer img {
+    width: 50px;
+    cursor: pointer;
+    transition: .2s;
+    padding-bottom: 2%;
+}
+
+h3 {
+    color: #1b1b1b;
+    font-family: "Righteous", sans-serif;
+}
+
+.box {
+  padding-left: 1%;
+  padding-right: 1%;
+  }
+
+header {
+  text-align: right;
+}
+
+nav { /* about me */
+  display: flex;
+  justify-content: right;
+}
+
+nav a {
+  color: #cfbfa6;
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  border: 1px solid #e8dac4;
+  border-radius: 100px;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: right;
+  transition: .3s;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+nav a:hover {
+  cursor: pointer;
+  background-color: #e8dac4;
+  color: #1b1b1b;
+}
